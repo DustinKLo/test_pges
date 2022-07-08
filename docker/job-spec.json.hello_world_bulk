@@ -1,5 +1,5 @@
 {
-  "command": "/home/ops/verdi/ops/test_pges/hello_world/run_hello_world.sh",
+  "command": "python /home/ops/verdi/ops/test_pges/hello_world/run_hello_world.sh",
   "recommended-queues": [ "factotum-job_worker-small", "nisar-job_worker-small" ],
   "params": [],
   "disk_usage": "100KB",

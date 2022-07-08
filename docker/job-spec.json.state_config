@@ -1,5 +1,5 @@
 {
-  "command": "/home/ops/verdi/ops/test_pges/state_config/create_state_config.py",
+  "command": "python /home/ops/verdi/ops/test_pges/state_config/create_state_config.py",
   "recommended-queues": [ "factotum-job_worker-small", "nisar-job_worker-small" ],
   "params": [],
   "disk_usage": "100KB",
