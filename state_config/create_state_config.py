@@ -10,6 +10,7 @@ if not os.path.exists(state_config_id):
 
 
 dataset_json = {
+    "version": "2.0",
     "ldf_name": "{}.ldf".format(state_config_id),
     "missing_rrsts": [],
     "found_rrsts": [],
