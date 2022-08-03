@@ -22,7 +22,7 @@
       "name": "text1",
       "from": "submitter",
       "type": "text",
-      "value": "GCOV"
+      "default": "GCOV"
     },
     {
       "name": "optional_text1",
@@ -34,13 +34,13 @@
       "name": "default_text1",
       "from": "submitter",
       "type": "text",
-      "value": "foo"
+      "default": "foo"
     },
     {
       "name": "object1",
       "from": "submitter",
       "type": "object",
-      "value": {
+      "default": {
         "a": 1,
         "b": 2
       }
