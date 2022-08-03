@@ -1,0 +1,48 @@
+{
+  "command": "/home/ops/verdi/ops/test_pges/hello_world/run_hello_world.sh",
+  "recommended-queues": [
+    "factotum-job_worker-small",
+    "nisar-job_worker-small"
+  ],
+  "params": [
+    {
+      "name": "num1",
+      "destination": "context"
+    },
+    {
+      "name": "optional_num1",
+      "destination": "context"
+    },
+    {
+      "name": "default_num1",
+      "destination": "context"
+    },
+    {
+      "name": "text1",
+      "destination": "context"
+    },
+    {
+      "name": "optional_text1",
+      "destination": "context"
+    },
+    {
+      "name": "default_text1",
+      "destination": "context"
+    },
+    {
+      "name": "object1",
+      "destination": "context"
+    },
+    {
+      "name": "optional_object1",
+      "destination": "context"
+    },
+    {
+      "name": "default_object1",
+      "destination": "context"
+    }
+  ],
+  "disk_usage": "100KB",
+  "soft_time_limit": 900,
+  "time_limit": 960
+}

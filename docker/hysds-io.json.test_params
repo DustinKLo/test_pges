@@ -1,0 +1,65 @@
+{
+  "label": "Test optional params",
+  "params": [
+    {
+      "name": "num1",
+      "from": "value",
+      "type": "number"
+    },
+    {
+      "name": "optional_num1",
+      "from": "value",
+      "type": "number",
+      "optional": true
+    },
+    {
+      "name": "default_num1",
+      "from": "value",
+      "type": "number",
+      "default": 1337
+    },
+    {
+      "name": "text1",
+      "from": "value",
+      "type": "text",
+      "value": "GCOV"
+    },
+    {
+      "name": "optional_text1",
+      "from": "value",
+      "type": "text",
+      "optional": true
+    },
+    {
+      "name": "default_text1",
+      "from": "value",
+      "type": "text",
+      "value": "foo"
+    },
+    {
+      "name": "object1",
+      "from": "value",
+      "type": "object",
+      "value": {
+        "a": 1,
+        "b": 2
+      }
+    },
+    {
+      "name": "optional_object1",
+      "from": "value",
+      "type": "object",
+      "optional": true
+    },
+    {
+      "name": "default_object1",
+      "from": "value",
+      "type": "object",
+      "default": {
+        "a": 1,
+        "b": 2
+      }
+    }
+  ],
+  "enable_dedup": false
+}
