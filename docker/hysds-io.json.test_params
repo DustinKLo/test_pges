@@ -3,42 +3,42 @@
   "params": [
     {
       "name": "num1",
-      "from": "value",
+      "from": "submitter",
       "type": "number"
     },
     {
       "name": "optional_num1",
-      "from": "value",
+      "from": "submitter",
       "type": "number",
       "optional": true
     },
     {
       "name": "default_num1",
-      "from": "value",
+      "from": "submitter",
       "type": "number",
       "default": 1337
     },
     {
       "name": "text1",
-      "from": "value",
+      "from": "submitter",
       "type": "text",
       "value": "GCOV"
     },
     {
       "name": "optional_text1",
-      "from": "value",
+      "from": "submitter",
       "type": "text",
       "optional": true
     },
     {
       "name": "default_text1",
-      "from": "value",
+      "from": "submitter",
       "type": "text",
       "value": "foo"
     },
     {
       "name": "object1",
-      "from": "value",
+      "from": "submitter",
       "type": "object",
       "value": {
         "a": 1,
@@ -47,13 +47,13 @@
     },
     {
       "name": "optional_object1",
-      "from": "value",
+      "from": "submitter",
       "type": "object",
       "optional": true
     },
     {
       "name": "default_object1",
-      "from": "value",
+      "from": "submitter",
       "type": "object",
       "default": {
         "a": 1,
