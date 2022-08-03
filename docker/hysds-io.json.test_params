@@ -37,6 +37,13 @@
       "default": "foo"
     },
     {
+      "name": "optional_default_text1",
+      "from": "submitter",
+      "type": "text",
+      "default": "foo",
+      "optional": true
+    },
+    {
       "name": "object1",
       "from": "submitter",
       "type": "object"

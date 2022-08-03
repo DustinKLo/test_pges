@@ -30,6 +30,10 @@
       "destination": "context"
     },
     {
+      "name": "optional_default_text1",
+      "destination": "context"
+    },
+    {
       "name": "object1",
       "destination": "context"
     },
