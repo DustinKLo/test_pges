@@ -1,6 +1,15 @@
 import os
 import json
 
+
+ctx_file = "_context.json"
+with open(ctx_file) as f:
+    ctx = json.load(f)
+    ctx['_force_ingest'] = True
+    with open(ctx_file, 'w') as f:
+        json.dump(ctx, f, sort_keys=True, indent=2)
+
+
 dataset_json = {
   "version": "2.0",
   "label": "Oregon",
