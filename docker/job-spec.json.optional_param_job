@@ -1,0 +1,8 @@
+{
+  "command": "echo 1",
+  "recommended-queues": [ "factotum-job_worker-small" ],
+  "params": [],
+  "disk_usage": "100KB",
+  "soft_time_limit": 900,
+  "time_limit": 960
+}
