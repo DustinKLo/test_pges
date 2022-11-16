@@ -1,7 +1,24 @@
 {
   "command": "echo 1",
   "recommended-queues": [ "factotum-job_worker-small" ],
-  "params": [],
+  "params": [
+    {
+      "name": "optional_bool",
+      "destination": "context"
+    },
+    {
+      "name": "optional_bool_with_default",
+      "destination": "context"
+    },
+    {
+      "name": "optional_text",
+      "destination": "context"
+    },
+    {
+      "name": "optional_text_with_default",
+      "destination": "context"
+    }
+  ],
   "disk_usage": "100KB",
   "soft_time_limit": 900,
   "time_limit": 960
