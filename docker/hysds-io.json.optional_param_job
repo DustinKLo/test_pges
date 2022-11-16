@@ -1,0 +1,36 @@
+{
+  "label": "Optional params test PGE",
+  "params": [
+    {
+      "name": "optional_bool",
+      "from": "submitter",
+      "placeholder": "optional boolean parameter",
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "optional_bool_with_default",
+      "from": "submitter",
+      "placeholder": "optional boolean parameter w/ default value",
+      "type": "boolean",
+      "default": "false",
+      "optional": true
+    },
+    {
+      "name": "optional_text",
+      "from": "submitter",
+      "placeholder": "optional string parameter",
+      "type": "text",
+      "optional": true
+    },
+    {
+      "name": "optional_text_with_default",
+      "from": "submitter",
+      "placeholder": "optional string parameter",
+      "type": "text",
+      "default": "foo",
+      "optional": true
+    }
+  ],
+  "enable_dedup": false
+}
