@@ -2,7 +2,7 @@
 echo "Hello World"
 echo "Hello World to STDERR" 1>&2
 
-for i in {1..3}; do
+for i in {1..300}; do
   # generate dataset ID
   timestamp=$(date -u +%Y%m%dT%H%M%S.%NZ)
   hash=$(echo $timestamp | sha224sum | cut -c1-5)
@@ -14,7 +14,7 @@ for i in {1..3}; do
 
   # create fake data
   fake_data_file=${id}/fake_data.dat
-  dd if=/dev/urandom of=$fake_data_file bs=1M count=5
+  dd if=/dev/urandom of=$fake_data_file bs=30M count=5
 
   # create minimal dataset JSON file
   dataset_json_file=${id}/${id}.dataset.json
