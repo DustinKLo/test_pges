@@ -6,7 +6,7 @@
   "params": [
     {
       "name": "product_paths",
-      "from": "dataset_jpath:_source.metadata.localize_urls"
+      "from": "submitter"
     }
   ]
 }
