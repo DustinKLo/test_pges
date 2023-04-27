@@ -1,0 +1,12 @@
+{
+  "submission_type": "individual",
+  "label": "test localize data",
+  "allowed_accounts": [ "ops" ],
+  "enable_dedup": true,
+  "params": [
+    {
+      "name": "product_paths",
+      "from": "dataset_jpath:_source.metadata.localize_urls"
+    }
+  ]
+}

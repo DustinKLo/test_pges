@@ -1,0 +1,23 @@
+{
+  "command": "echo 1234567890",
+  "disk_usage":"20GB",
+  "soft_time_limit": 1200,
+  "time_limit": 1200,
+  "imported_worker_files": {
+    "$HOME/.netrc": "/home/ops/.netrc",
+    "$HOME/.aws": "/home/ops/.aws"
+  },
+  "recommended-queues": [
+    "nisar-job_worker-small",
+    "nisar-job_worker-large",
+    "nisar-workflow_profiler",
+    "factotum-job_worker-small",
+    "factotum-job_worker-large"
+  ],
+  "params": [
+    {
+      "name": "product_paths",
+      "destination": "localize"
+    }
+  ]
+}
