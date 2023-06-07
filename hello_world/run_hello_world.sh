@@ -2,7 +2,7 @@
 echo "Hello World"
 echo "Hello World to STDERR" 1>&2
 
-for i in {1..300}; do
+for i in {1..50}; do
   # generate dataset ID
   timestamp=$(date -u +%Y%m%dT%H%M%S.%NZ)
   hash=$(echo $timestamp | sha224sum | cut -c1-5)
