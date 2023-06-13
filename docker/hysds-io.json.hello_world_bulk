@@ -1,6 +1,6 @@
 {
   "submission_type": "individual",
-  "label": "Hello World",
+  "label": "Hello World (test bulk PGE)",
   "params": [],
   "enable_dedup": false
 }
