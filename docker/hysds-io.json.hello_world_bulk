@@ -1,4 +1,5 @@
 {
+  "submission_type": "individual",
   "label": "Hello World",
   "params": [],
   "enable_dedup": false
